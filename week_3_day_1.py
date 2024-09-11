@@ -47,30 +47,30 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age=16
-# 2. name
-name="Andrew"
-# 3. song
-song="Right Side of My Neck"
-# 4. food
-food="fried chicken"
-# 5. number
-number=12
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age=16
+# # 2. name
+# name="Andrew"
+# # 3. song
+# song="Right Side of My Neck"
+# # 4. food
+# food="fried chicken"
+# # 5. number
+# number=12
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-print("Once upon a time, there was a", str(age), "year old coder named", name,".")
+# # Once upon a time, there was a [age] old coder named [name].
+# print("Once upon a time, there was a", str(age), "year old coder named", name,".")
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw", food, "until", name, "would stop singing.")
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw", food, "until", name, "would stop singing.")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# ##########################################################################################
 
 
 
@@ -106,13 +106,13 @@ print(name + " liked to hum the song " + song + " while coding. It was so annoyi
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list_of_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -133,10 +133,10 @@ print(name + " liked to hum the song " + song + " while coding. It was so annoyi
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# one_variable
+# email_address
+# percentage
+# i_eat
 
 
 
@@ -171,21 +171,34 @@ print(name + " liked to hum the song " + song + " while coding. It was so annoyi
 
 ##########################################################################################
 # #addition
+print(2+2)
 # #multiplication
+print(2*2)
 # #division
+print(2/2)
 # #modulo
+print(2%2) #remainder
 # #powers
+print(2**2)
 # #get the max and min of a number
-# #round a number
-# # absolute value
-# # order of operations
-# #to do more you need to import special math libraries from python
-# #from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
-# #sqrt method
+print(max(2, 3))
+print(min(2, 3))
 
+# #round a number
+print(round(2.5))
+# # absolute value
+print(abs(-2))
+# # order of operations
+print(2+10*10+3)
+# #to do more you need to import special math libraries from python
+from math import *    
+# #this goes out and grabs some different math functions we can use
+# #floor method, round down
+print(floor(3.7))
+# #ceil method, round up
+print(ceil(3.7))
+# #sqrt method
+print(sqrt(16))
 
 
 
