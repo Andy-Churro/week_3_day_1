@@ -169,36 +169,36 @@
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
-##########################################################################################
-# #addition
-print(2+2)
-# #multiplication
-print(2*2)
-# #division
-print(2/2)
-# #modulo
-print(2%2) #remainder
-# #powers
-print(2**2)
-# #get the max and min of a number
-print(max(2, 3))
-print(min(2, 3))
+# ##########################################################################################
+# # #addition
+# print(2+2)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(2/2)
+# # #modulo
+# print(2%2) #remainder
+# # #powers
+# print(2**2)
+# # #get the max and min of a number
+# print(max(2, 3))
+# print(min(2, 3))
 
-# #round a number
-print(round(2.5))
-# # absolute value
-print(abs(-2))
-# # order of operations
-print(2+10*10+3)
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method, round down
-print(floor(3.7))
-# #ceil method, round up
-print(ceil(3.7))
-# #sqrt method
-print(sqrt(16))
+# # #round a number
+# print(round(2.5))
+# # # absolute value
+# print(abs(-2))
+# # # order of operations
+# print(2+10*10+3)
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method, round down
+# print(floor(3.7))
+# # #ceil method, round up
+# print(ceil(3.7))
+# # #sqrt method
+# print(sqrt(16))
 
 
 
@@ -216,15 +216,22 @@ print(sqrt(16))
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
-# input("what is your name?")
+input("What is your name?")
 # # basic math calculator
 # #ask the user for 2 numbers
+firstNumber=int(input("Give a number."))
+secondNumber=int(input("Give another number."))
 # # print out a statement where you:
 # # add them together
+print(firstNumber+secondNumber)
 # #multiply
+print(firstNumber*secondNumber)
 # # find the max number
+print(max(firstNumber, secondNumber))
 # # find the remainder of the numbers
+print(firstNumber%secondNumber)
 # #round one number
+print(round(secondNumber))
 
 
 
